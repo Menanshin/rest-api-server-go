@@ -18,4 +18,6 @@ COPY --from=builder /build/main .
 
 EXPOSE 8080
 
+LABEL authors="e.maslov"
+
 CMD ["./main"]
